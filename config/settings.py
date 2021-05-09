@@ -1,5 +1,3 @@
-
-import django_heroku
 from pathlib import Path
 import os
 
@@ -15,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p93^%%i0p6#o@%8=8+oq1t_6eyaostg(_%gvahvcpq(um&5sas'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
